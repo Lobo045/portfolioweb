@@ -1,0 +1,367 @@
+body{
+position: relative;
+width: 100%;
+height: 2946px;
+background: #FFFFFF;
+}
+
+#TopPage{
+position: absolute;
+width: 100%;
+height: 3%;
+left: 0px;
+top: 0px;
+background: #94C7F6;
+border-radius: 0px 0px 25px 25px;}
+
+#rectangulologo{
+position: absolute;
+width: 10%;
+height: 100%;
+left: 5%;
+top: 0px;
+background: #dec4c4;}
+
+#rectanguloInicio{
+position: absolute;
+width: 10%;
+height: 40%;
+left: 35%;
+top: 25%;
+background-color: #71BB93;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 200%;
+text-align: center;
+color: #110404;}
+
+#rectanguloMicv{
+position: absolute;
+width: 10%;
+height: 40%;
+left: 50%;
+top: 25%;
+background-color: #71BB93;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 200%;
+text-align: center;
+color: #000000;}
+
+#rectangulosobremi{
+position: absolute;
+width: 10%;
+height: 40%;
+left: 65%;
+top: 25%;
+background-color: #71BB93;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 200%;
+text-align: center;
+color: #000000;}
+
+#rectangulocontactame{
+position: absolute;
+width: 17%;
+height: 62.5%;
+left: 80%;
+top: 25%;
+background-color: #5292F3;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 200%;
+text-align: center;
+color: #000000;}
+
+
+
+#iniciopage{
+position: absolute;
+width: 100%;
+height: 33%;
+left: 0px;
+top: 3%;
+background: linear-gradient(180deg, #C2B1A9 0%, #D8DCD8 100%), #DEE6DD;}
+
+#Ellipse2{
+position: absolute;
+width: 522px;
+height: 495px;
+right: 5%;
+top: 25%;
+background: #CDD9E5;}
+
+#Rectangle6{
+position: absolute;
+width: 765px;
+height: 479px;
+left: 5%;
+top: 22.5%;
+background: #CDCDCD;
+opacity: 0.95;
+border-radius: 72px;}
+
+#pictrue1{
+position: absolute;
+width: 70%;
+height: 70%;
+top: 15%;
+left: 15%;
+bottom: 15%;
+right: 15%;
+background: url(img/mainpic.JPG);
+background-size: cover;
+border-radius: 195.5px;}
+
+#pinicio{
+position: absolute;
+width: 415px;
+height: 23px;
+left: 305px;
+top: 65px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+color: #000000;}
+
+#texto1{
+position: absolute;
+width: 65%;
+height: 31%;
+left: 15%;
+top: 30%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #000000;}
+
+#texto2{
+position: absolute;
+width: 27%;
+height: 3%;
+left: 33%;
+top: 7%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #000000;}
+
+
+
+#CVPage{
+position: absolute;
+width: 100%;
+height: 28%;
+left: 0;
+top: 36%;
+background: #8399C2;}
+
+#blur3{
+position: absolute;
+width: 45%;
+height: 80%;
+left: -5%;
+top: 15%;
+background: rgba(179, 225, 222, 0.75);
+filter: blur(50px);}
+
+#resumecomputacional{
+position: absolute;
+width: 40%;
+height: 70%;
+left: 4%;
+top: 12%;
+background: url(img/ResumeComputacional.jpg);
+border-radius: 396.5px;
+background-size: cover;}
+
+#texto3{
+position: absolute;
+width: 21%;
+height: 8%;
+left: 62%;
+top: 12%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 8%;
+text-align: center;
+color: #000000;}
+
+#texto4{
+position: absolute;
+width: 35%;
+height: 55%;
+left: 55%;
+top: 30%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #000000;}
+
+
+
+#SobreMiPage{
+position: absolute;
+width: 100%;
+height: 33%;
+left: 0px;
+top: 64%;
+background: #DDE2E6;}
+
+#rectangulo7{
+position: absolute;
+width: 32%;
+height: 61%;
+left: 10%;
+top: 25%;
+background: linear-gradient(180deg, #C9EEF5 0%, rgba(0, 0, 0, 0.16) 100%);
+border-radius: 56px 56px 0px 0px;}
+
+#rectangulo8{
+position: absolute;
+width: 32%;
+height: 61%;
+right: 10%;
+top: 25%;
+background: linear-gradient(180deg, #C9EEF5 0%, rgba(0, 0, 0, 0.16) 100%);
+border-radius: 56px 56px 0px 0px;}
+
+#elpise4{
+position: absolute;
+width: 24.6%;
+height: 37.9%;
+left: 13%;
+top: 7%;
+background: #FFFFFF;
+filter: blur(35px);}
+
+#elpise5{
+position: absolute;
+width: 24.6%;
+height: 37.9%;
+right: 13%;
+top: 7%;
+background: #FFFFFF;
+filter: blur(35px);}
+
+#natacionMain{
+position: absolute;
+width: 21.8%;
+height: 32.8%;
+left: 14.7%;
+top: 9%;
+background: url(img/swimmain.JPG);
+border-radius: 384px;
+background-size: cover;}
+
+#drawMain{
+position: absolute;
+width: 21.8%;
+height: 32.8%;
+right: 14.7%;
+top: 9%;
+background: url(img/drawmain.jpg);
+border-radius: 194.5px;
+background-size: cover;}
+
+#textonatacion{
+position: absolute;
+width: 22.5%;
+height: 34.8%;
+left: 13.7%;
+top: 46.7%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #000000;}
+
+#textodraw{
+position: absolute;
+position: absolute;
+width: 22.5%;
+height: 34.8%;
+right: 13.7%;
+top: 46.7%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #000000;}
+
+#overlay {
+position: absolute;
+display: none;
+top: 3.5%;
+left: 3%;
+right: 3%;
+bottom: 30.5%;
+background-size: cover;
+background: url(img/ResumeComputacional.jpg);
+z-index: 2;
+cursor: pointer;}
+
+
+#contactopage{
+position: absolute;
+width: 100%;
+height: 3%;
+left: 0;
+top: 97%;
+background: #5F707E;}
+
+#email{
+position: absolute;
+width: 30%;
+height: 35%;
+left: 2%;
+top: 42%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;}
+
+#telefono{
+position: absolute;
+width: 30%;
+height: 35%;
+right: 2%;
+top: 42%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;}
+

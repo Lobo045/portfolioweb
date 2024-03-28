@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="overlay" onclick="off()"></div>
+    <div id="TopPage">
+        <div id ="rectangulologo"></div>
+        <div id="rectanguloInicio" onclick="iraSeccion('TopPage')">Inicio</div>
+        <div id="rectanguloMicv" onclick="iraSeccion('CVPage')">Mi CV</div>
+        <div id="rectangulosobremi" onclick="iraSeccion('SobreMiPage')"> Sobre mi</div>
+        <div id="rectangulocontactame" onclick="iraSeccion('contactopage')"> Contactame</div>
+    </div>
+    <div id="iniciopage"> 
+        <div id="Ellipse2">
+            <div id="pictrue1"></div>
+        </div>
+        <div id="Rectangle6">
+            <header id="texto2">Mi introducción a la programación</header>
+        <main id="texto1"> Mi nombre es Abraham estado muy adentrado almundo de las computadoras desde que tenía alrededor de 8 años, como la mayoríade las personas que les gusta programar mi introducción al mundo de lascomputadoras fue con cosas como los videojuegos y también diferentes redessociales cómo Facebook y Skype. Empecé a programar al videojuego de Minecraft, aquífue donde empecé a hacer pequeños mods (añadiendo diferentes cosas a al juego),desde ahí agarré cierto gusto al mundo de la programación.</main>
+        </div>
+        <div id="pinicio"></div>
+    </div>
+    <div id="CVPage">
+        <div id="blur3"></div>
+        <button id="resumecomputacional" onclick="on()"></button>
+        <div id="texto3">Vida de estudiante</div>
+        <div id="texto4">Estudié por una gran parte de mi vida en los Estados Unidosespecíficamente en California, es decir que manejo el inglés a un grado muyavanzado, de hecho acabé el equivalente de la preparatoria(high school) en losEstados Unidos. Para mi carrera universitaria estudié en el tecmilenio, dondetambién aprendí a llevar el idioma del alemán.</div>
+    </div>
+    <div id="SobreMiPage">
+        <div id="rectangulo7"></div>
+        <div id="rectangulo8"></div>
+        <div id="elpise4"></div>
+        <div id="elpise5"></div>
+        <button id="natacionMain"></button>
+        <button id="drawMain"></button>
+        <div id="textonatacion">Uno de los hobbies en las que más participó es en la natación, lanatación ha sido un aspecto muy importante de mi vida desde que tenía 8 años. Actualmentesolo nado en competencias de masters pero hubo un tiempo dónde llegué a ir acompetencias de más alto rango.</div>
+        <div id="textodraw">Dibujar con lápiz es un hobby que he tenido desde que también era pequeño.Ahora principalmente me dedico a dibujar personajes de videojuegos, aunque porun tiempo también dibujé arte conocida como “still life” la cual se enfoca endibujar objetos cotidianos que vemos todos los días.</div>
+    </div>
+    <div id="contactopage">
+        <div id="email" onclick="copiarTexto('lopezabraham@outlook.com')">Email: lopezabraham@outlook.com</div>
+        <div id="telefono" onclick="copiarTexto('+52 81 1002 3316')">Telefono:+52 81 1002 3316</div>
+    </div>
+    <script>
+        function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
+
+function iraSeccion(sectionId) {
+    var section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  function copiarTexto(email) {
+    var textarea = document.createElement("textarea");
+
+    textarea.value = email;
+
+    document.body.appendChild(textarea);
+
+    textarea.select();
+
+    document.execCommand("copy");
+
+    document.body.removeChild(textarea);
+ 
+    alert("Se ha copiado:" + email);
+  }
+    </script>
+</body>
+</html>
